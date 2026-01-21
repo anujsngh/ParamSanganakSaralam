@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" /> <!-- blue-600 -->
+      <stop offset="100%" stop-color="#4f46e5" /> <!-- indigo-600 -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Background transparent -->
+  
+  <!-- Abstract Node Structure -->
+  <circle cx="250" cy="250" r="200" fill="none" stroke="url(#primaryGradient)" stroke-width="20" opacity="0.1" />
+  
+  <rect x="150" y="150" width="200" height="200" rx="40" fill="url(#primaryGradient)" />
+  
+  <!-- Symbol for Compute/Network -->
+  <path d="M 210 250 L 290 250 M 250 210 L 250 290" stroke="white" stroke-width="25" stroke-linecap="round" />
+  <circle cx="250" cy="250" r="30" fill="white" />
+  
+  <text x="50%" y="420" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="60" fill="#0f172a">PSS</text>
+</svg>
