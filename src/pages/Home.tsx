@@ -8,7 +8,7 @@ export function Home() {
             <section className="text-center space-y-6 py-4 sm:py-8">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm font-medium border border-blue-200 dark:border-blue-800">
                     <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                    Documentation v1.0.2
+                    Documentation v1.0.4
                 </div>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-slate-900 dark:text-white leading-tight">
                     Param Sanganak{' '}

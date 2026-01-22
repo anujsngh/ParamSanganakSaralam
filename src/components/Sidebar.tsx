@@ -146,7 +146,7 @@ export function Sidebar() {
                         {/* Quick links */}
                         <div className="space-y-2">
                             <a
-                                href="https://paramsanganak.iitk.ac.in"
+                                href="https://iitk.ac.in/hpc/paramsanganak"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 px-3 py-2 text-sm text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
