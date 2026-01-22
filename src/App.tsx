@@ -12,11 +12,13 @@ import { BestPractices } from './pages/BestPractices';
 import { UsagePolicy } from './pages/UsagePolicy';
 import { Support } from './pages/Support';
 
+import { NoticePopup } from './components/NoticePopup';
 import { ThemeProvider } from './components/theme-provider';
 
 function App() {
     return (
         <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
+            <NoticePopup />
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Layout />}>

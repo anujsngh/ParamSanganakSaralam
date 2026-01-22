@@ -13,7 +13,8 @@ import {
     Scale,
     GraduationCap,
     ExternalLink,
-    BookOpen
+    BookOpen,
+    Github
 } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useState, useEffect } from 'react';
@@ -148,6 +149,15 @@ export function Sidebar() {
                             >
                                 <ExternalLink size={14} aria-hidden="true" />
                                 Official Portal
+                            </a>
+                            <a
+                                href="https://github.com/anujsngh/ParamSanganakSaralam"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2 px-3 py-2 text-sm text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+                            >
+                                <Github size={14} aria-hidden="true" />
+                                Contribute on GitHub
                             </a>
                         </div>
 
