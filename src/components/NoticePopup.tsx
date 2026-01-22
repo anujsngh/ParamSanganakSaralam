@@ -55,7 +55,7 @@ export function NoticePopup() {
 
                         <div className="space-y-3 text-slate-600 dark:text-slate-300">
                             <p>
-                                This is an <span className="font-semibold text-amber-600 dark:text-amber-400">unofficial documentation</span> of the Param Sanganak facility.
+                                This is an <span className="font-semibold text-amber-600 dark:text-amber-400">unofficial documentation</span> of the Param Sanganak facility at IIT Kanpur.
                             </p>
                             <p className="text-sm">
                                 While we strive for accuracy, please refer to the official portal for critical operational guidelines and support.

@@ -74,8 +74,10 @@ export function Sidebar() {
                     >
                         {isOpen ? <X size={22} aria-hidden="true" /> : <Menu size={22} aria-hidden="true" />}
                     </button>
-                    <h1 className="text-base font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                        Param Sanganak
+                    <h1 className="text-base font-bold">
+                        <NavLink to="/" className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                            Param Sanganak
+                        </NavLink>
                     </h1>
                     <ThemeToggle />
                 </div>
@@ -97,8 +99,10 @@ export function Sidebar() {
                 <div className="h-full flex flex-col">
                     {/* Header - hidden on mobile (shown in mobile header bar) */}
                     <div className="hidden lg:block p-6 border-b border-slate-200 dark:border-slate-800">
-                        <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                            Param Sanganak
+                        <h1 className="text-xl font-bold">
+                            <NavLink to="/" className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                                Param Sanganak
+                            </NavLink>
                         </h1>
                         <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">User Documentation</p>
                     </div>
