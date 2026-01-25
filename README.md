@@ -38,7 +38,7 @@ Param Sanganak Saralam provides comprehensive guides for users to effectively ut
 | GPU-Ready Nodes | 64 |
 | GPU Nodes | 20 |
 
-> **Disclaimer:** This is an unofficial documentation resource. For official information, please refer to the [PARAM Sanganak official website](https://www.iitk.ac.in/cc/param-sanganak).
+> **Disclaimer:** This is an unofficial documentation resource. For official information, please refer to the [PARAM Sanganak official website](https://iitk.ac.in/hpc/paramsanganak).
 
 ---
 
